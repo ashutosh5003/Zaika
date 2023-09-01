@@ -1,0 +1,352 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar{
+    background-image: url("/Images/Top_Food.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 26rem;
+    transform: scale(1.1);
+    overflow: hidden;
+    transition: all 1.4s ease 0s;
+}
+
+.top_bar{
+    padding-top: 20px;
+    text-decoration: none;
+    display: flex;
+    color: white;
+    list-style-type: none;
+    display: flex;
+    font-size: 16px;
+    justify-content: flex-end;
+    float: right;
+    padding-right: 80px;
+}
+.zom_image{
+
+    display: flex;
+    text-align: center;
+    height: 5rem;
+    padding-top: 7rem;
+    padding-left: 40rem;
+    padding-bottom: 13px;
+}
+.head{
+    color: white;
+    text-align: center;
+    padding-top: 1rem;
+    
+}
+#Lucknow{
+    color: rgb(252, 119, 119);
+}
+.search-bar{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 10px;
+    background-color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 70%;
+}
+#dish-search{
+    padding-left: 20rem;
+    outline: none;
+    border: none;
+    width: 50%;
+    padding-left: 10px;
+    font-size: 15px;
+}
+#location{
+    color: grey;
+    font-size: 15px;
+    border: none;
+    outline: none;
+}
+.search-bar i:first-child{
+    font-size: 20px;
+    color: rgb(252, 119, 119);
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+.search-bar i{
+    color: grey;
+    padding-left: 10px;
+    cursor: pointer;
+}
+.all{
+    padding-top: 4rem;
+    display: flex;
+    padding-left: 23rem;
+}
+#arrow{
+    border-right: 1px solid gray;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+/* -------------------------------------------mid section--------------------------------------*/
+.section-1{
+    margin-top: 40px;
+    margin-bottom: 40px ;
+}
+.container-feature{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.features{
+    overflow: hidden;
+    border-radius: 20px;
+    border: 0.5px solid rgb(214, 213, 213);
+}
+.feature-img{
+    width: 360px;
+    height: 190px;
+    overflow: hidden;
+}
+.feature-img img{
+    width: 100%;
+    object-fit: cover;
+}
+.features h3, 
+.features p{
+    text-align: center;
+    justify-content: center;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+.features p{
+    padding-bottom: 10px;
+    color: rgb(57, 53, 53);
+}
+.features h3{
+    font-weight: 500;
+}
+.features:hover{
+    transition: transform 0.7s;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.text h2{
+    font-weight: 500;
+    display: block;
+    font-size: 2.5em;
+    line-height: 1.2;
+    color: rgb(28, 28, 28);
+    margin-left: 5em;
+    padding-top: 40px;
+}
+.text p{
+    font-size: 1.1rem;
+    font-weight: 300;
+    color: rgb(54, 54, 54);
+    line-height: 1.4;
+    margin-left: 11.2em;
+    padding-top: 15px ;
+}
+#side-collection{
+    color: rgb(239, 79, 95);
+    background: transparent;
+    padding-left: 5rem;
+    font-size: 17px;
+    font-weight: lighter;
+}
+.middle{
+    margin: 60px 150px;
+    cursor: pointer;
+    overflow-x: hidden;
+    
+}
+.sec-2 h2{
+    font-size: 2.7rem;
+    font-weight: lighter;
+    margin-bottom:  10px;
+    margin-left: 40px;
+}
+.sec-2 div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.sec-2 h6{
+    margin: 0;
+    font-size: 1.2rem;
+    color: gray;
+    font-weight: lighter;
+    margin-left: 40px;
+}
+.sec-2 span{
+    color: rgb(248 117 117);
+}
+.fa-caret-right, sec-2 span{
+    color: rgb(248 117 117);
+}
+.box-1{
+    width: 255px;
+    height: 350px;
+    overflow: hidden;
+    z-index: -1;
+    position: relative;
+    border-radius: 8px;
+    padding-left: 40px;
+}
+.box-1 div{
+    position: absolute;
+    background: linear-gradient(transparent, black);
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: flex-end;
+    bottom: 0;
+    border-radius: 8px;
+}
+
+.box-1 div span:first-child{
+    display: inline-block;
+    color: white;
+    padding-left: 10px;
+    font-size: 1rem;
+    padding-bottom: 5px;
+}
+.box-1 i{
+    color: white;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+.box-1 img{
+    width: 255px;
+    height: 300px;
+    object-fit: cover;
+}
+.sec-3{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 130px;
+    
+}
+.middle h1{
+    font-size: 2.1rem;
+    font-weight: lighter;
+    text-align: center;
+    margin: 50px;
+    color: rgb(56, 56, 56);
+    
+}
+.sec-4{
+    display: grid;
+    justify-content: center;
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+    grid-template-columns: 340px 340px 340px;
+    grid-template-rows: auto;
+    text-align: center;
+    
+
+}
+.box-2{
+    box-shadow: rgb(0, 0, 0);
+    border: 1px solid rgb(235, 233, 232);
+    width: 300px;
+    height: 60px;
+    /* overflow: hidden; */
+    border-radius: 10px;
+    margin-left: 40px;
+}
+.box-2 div{
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+
+}
+.box-2 div span{
+    color: rgb(65, 64, 64);
+    font-size: 1.2rem;
+    display: inline-block;
+    white-space: nowrap;
+    
+}
+.container2{
+	max-width: 100%;
+    padding-left: 70px;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+
+/* --------------------------------footer------------------------------------ */
+
+.footer{
+	background-color: #24262b;
+    padding: 100px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 0px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: white;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: white;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: white;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: white;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: white;
+}
+.focus2{
+    background-image: url("/back.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 700px;
+    background-size: cover !important;
+    height: auto;
+    padding: 90px 0 90px;
+}
